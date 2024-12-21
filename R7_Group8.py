@@ -130,7 +130,7 @@ th { /* Table headers */
     text-align: left;
 }
 h1 {
-    color: #66c0f4; /* Steam blue */
+    color: #FFFFFF; /* Steam blue */
     text-shadow: none;
     font-family: "Motiva Sans", sans-serif;
     text-align: center;
@@ -138,7 +138,7 @@ h1 {
     margin-bottom: 30px;
 }
 h3 {
-    color: #FFFFFF; /* Steam blue */
+    color: #66c0f4; /* Steam blue */
     font-family: "Motiva Sans", sans-serif;
     text-align: center;
     margin-top: 20px;
