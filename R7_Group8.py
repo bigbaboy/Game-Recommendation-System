@@ -130,7 +130,7 @@ th { /* Table headers */
     text-align: left;
 }
 h1 {
-    color: #FFFFFF !important; /* Màu trắng */
+    color: #66c0f4 !important; /* Màu trắng */
     text-shadow: none !important;
     font-family: "Motiva Sans", sans-serif !important;
     text-align: center !important;
@@ -160,7 +160,7 @@ h3 {
     color: #E0E0E0;
 }
 .recommendation-title {
-    color: #66c0f4; /* Steam blue */
+    color: #66c0f4 !important; /* Steam blue */
     font-size: 24px;
     margin-bottom: 10px;
 }
