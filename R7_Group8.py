@@ -6,7 +6,7 @@ import streamlit as st
 
 # Load data
 try:
-    data = pd.read_csv("D://Download//R7data.csv")
+    data = pd.read_csv("R7data.csv")  # Đường dẫn tương đối đúng
 except FileNotFoundError:
     st.error("Không tìm thấy file dữ liệu. Vui lòng kiểm tra lại đường dẫn.")
     st.stop()
