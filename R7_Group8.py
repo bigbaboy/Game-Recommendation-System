@@ -138,7 +138,7 @@ h1 {
     margin-bottom: 30px;
 }
 h3 {
-    color: #66c0f4; /* Steam blue */
+    color: #FFFFFF; /* Steam blue */
     font-family: "Motiva Sans", sans-serif;
     text-align: center;
     margin-top: 20px;
