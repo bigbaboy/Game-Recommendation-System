@@ -130,12 +130,15 @@ th { /* Table headers */
     text-align: left;
 }
 h1 {
-    color: #FFFFFF; /* Steam blue */
-    text-shadow: none;
-    font-family: "Motiva Sans", sans-serif;
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 30px;
+    color: #FFFFFF !important; /* Màu trắng */
+    text-shadow: none !important;
+    font-family: "Motiva Sans", sans-serif !important;
+    text-align: center !important;
+    font-size: 36px !important;
+    margin-bottom: 30px !important;
+}
+.game-icon {
+    color: #66c0f4 !important; /* Màu xanh Steam cho icon */
 }
 h3 {
     color: #66c0f4; /* Steam blue */
