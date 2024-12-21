@@ -202,7 +202,7 @@ h3 {
 
 # Title and Description
 st.markdown("<h1>🎮 Game Recommendation System 🎮</h1>", unsafe_allow_html=True)
-st.markdown("<div style='text-align: center; color: #c8c8c8;'>Ứng dụng gợi ý game dựa trên game bạn đã chơi.</div>", unsafe_allow_html=True)
+st.markdown("<div style='text-align: center; color: #FFFFFF;'>Ứng dụng gợi ý game dựa trên game bạn đã chơi.</div>", unsafe_allow_html=True)
 
 # Input and Results in columns
 col1, col2 = st.columns([1, 2])
