@@ -2,6 +2,14 @@
 
 A Streamlit academic prototype that recommends games similar to a selected title using **game attributes and cosine nearest neighbors**.
 
+**Author:** Lê Minh Đạt · Individual academic project, developed with AI-assisted coding.
+
+## Data collection and project scope
+
+The project includes Steam data collection using Python (`requests` and BeautifulSoup), price normalization and insertion into Azure SQL through `pyodbc`. A separate notebook aggregates game attributes and explores cosine-similarity recommendations; the application in this repository implements the Streamlit version with cosine nearest neighbors.
+
+The crawler and exploratory notebook are maintained separately and are not yet included in this repository. The previous hosted demo is no longer available; use the local setup below.
+
 ## Recommendation task
 
 A user selects a game from the dataset and receives up to five similar titles. Recommendations use item characteristics rather than a user–item ratings matrix, so this implementation is **content-based**, not collaborative filtering.
@@ -53,4 +61,4 @@ Select a game, click the recommendation button and inspect the returned titles. 
 
 ## Next steps
 
-Add deterministic self-exclusion by game identifier, expose similarity explanations and compare against a simple popularity baseline. Document data provenance and team contributions before presenting this as an individually completed project.
+Add deterministic self-exclusion by game identifier, expose similarity explanations and compare against a simple popularity baseline. Publish a credential-free crawler and document the database schema and dataset collection date.
